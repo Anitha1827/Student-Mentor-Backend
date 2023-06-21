@@ -4,7 +4,7 @@ import { studentsRouter } from "./Routers/students.js";
 import { mentorsRouter} from "./Routers/mentors.js"
 import { userRouter } from "./Routers/users.js";
 import { isAuthenticated } from "./Authtentication/auth.js";
-
+import jwt  from "jsonwebtoken";
 
 // configure the environment
 dotenv.config();

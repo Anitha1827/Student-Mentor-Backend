@@ -6,6 +6,7 @@ import jwt from "jsonwebtoken"
 const router = express.Router();
 router.get("/all", async(req,res)=>{
     try {
+        
         if(req.query.experience){
             req.query.experience = +req.query.experience
         }
